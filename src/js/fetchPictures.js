@@ -65,7 +65,7 @@ async function fetchPictures() {
     if (hits.length == 0) {
       loadMoreBtn.hide();
       return info({
-        text: 'No country has been found. Please enter a more specific query!',
+        text: 'No image has been found. Please enter a more specific query!',
       });
     }
     appendPicturesMarkup(hits);
